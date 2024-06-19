@@ -26,10 +26,8 @@ maiorValor = MaiorValor(valor1, valor2, valor3)
 menorValor = MenorValor(valor1, valor2, valor3)
 mediaValor = MediaValor(valor1, valor2, valor3)
 
-resultado = ""
 if(valor1 == valor2 == valor3):
-    resultado = "Todos os valores são iguais"
+    print("Todos os valores são iguais")
 else:
-    resultado = "o maior valor é: ", maiorValor, ", o menor valor é: ", menorValor, " e a média dos tres valores é: ", mediaValor
+    print(f"o maior valor é: {maiorValor}, o menor valor é: {menorValor} e a média dos tres valores é: {mediaValor}")
 
-print(resultado)
