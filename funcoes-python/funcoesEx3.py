@@ -5,8 +5,6 @@ def MaiorValor(v1,v2,v3):
         return v2
     elif v3 > v1 and v3 > v2:
         return v3
-    elif v1 == v2 == v3:
-        return "todos os valores são iguais"
     
 def MenorValor(v1,v2,v3):
     if v1 < v2 and v1 < v3:
@@ -15,8 +13,6 @@ def MenorValor(v1,v2,v3):
         return v2
     elif v3 < v1 and v3 < v2:
         return v3
-    elif v1 == v2 == v3:
-        return "todos os valores são iguais"
     
 def MediaValor(v1,v2,v3):
     media = (v1 + v2 + v3)/3
